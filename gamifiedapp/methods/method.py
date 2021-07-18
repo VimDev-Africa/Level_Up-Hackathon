@@ -6,12 +6,12 @@ from databased.models import Player
 class Badge(APIView):
     # permission_classes = (IsAuthenticated,)
     def get(self, req):
-        player = Player.objects.create(name="")
-        player.save()
+        
         return Response(data = {}, status=HTTP_200_OK)
 
-class user_reg(APIView):
+class User_reg(APIView):
     # permission_classes = (IsAuthenticated,)
     def post(self, req):
         
         pass
+    
