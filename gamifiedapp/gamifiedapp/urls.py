@@ -19,5 +19,5 @@ from methods.methods import Badge
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('badge', Badge.as_view() )
+    path('badge', Badge.as_view())
 ]
